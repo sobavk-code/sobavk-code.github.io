@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal MCP Assistant</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d2433; --muted:#5b6475; --link:#1a56b0; --line:#d9dde5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14181f; --fg:#e6e9ef; --muted:#9aa3b2; --link:#7fb0ff; --line:#2b3240; }
+  }
+  html { color-scheme: light dark; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:3rem 1.25rem 4rem; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 .5rem; }
+  h2 { font-size:1.15rem; margin:2.2rem 0 .4rem; }
+  p, li { max-width:65ch; }
+  .lead { color:var(--muted); margin:0 0 1.5rem; }
+  a { color:var(--link); }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--muted); font-size:.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Personal MCP Assistant</h1>
+  <p class="lead">A private tool that lets its owner ask an AI assistant questions about their own email and calendar.</p>
+
+  <h2>What it does</h2>
+  <p>Personal MCP Assistant is a single-user application that runs on its owner’s own computer. It connects to the owner’s Google account through the Gmail API and the Google Calendar API, with read-only access, so the owner can search their messages and check their upcoming events by asking an AI assistant in plain language.</p>
+
+  <h2>Who can use it</h2>
+  <p>The application is not offered to the public. It has one user, the person who created it, and it does not have a server, accounts or a database.</p>
+
+  <h2>Your data</h2>
+  <p>Email and calendar data is read only when the owner asks for it, and is not stored or shared by the application. Details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:3pu4you@gmail.com">3pu4you@gmail.com</a></p>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
